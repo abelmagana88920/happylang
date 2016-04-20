@@ -1718,6 +1718,8 @@ body {
   padding: 10px 4px;
   transition: all .3s;
   border: 1px solid transparent;
+
+
 }
 .hpanel .hbuilt.panel-heading {
   border-bottom: none;
@@ -1731,6 +1733,22 @@ body {
     height: 105px;
     margin-bottom: -60px;
 
+
+}
+.hpanel > .panel-footer {
+     transition: top 0.5s ease;
+     
+       top: 0px;
+
+}
+
+/*  Adding hover functionality with visible  */
+.hpanel > .panel-footer:hover .cart {
+   display: block;
+}
+
+.cart {
+    display: none;
 }
 
 .hpanel > .panel-footer,
