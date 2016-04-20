@@ -1722,6 +1722,17 @@ body {
 .hpanel .hbuilt.panel-heading {
   border-bottom: none;
 }
+
+
+.hpanel > .panel-footer:hover {
+
+    position: relative;
+    top: -60px;
+    height: 105px;
+    margin-bottom: -60px;
+
+}
+
 .hpanel > .panel-footer,
 .hpanel > .panel-section {
   color: inherit;
@@ -2373,9 +2384,14 @@ body.fullscreen-panel-mode {
 .h-100 {
   min-height: 100px;
 }
-.mh-50 {
-  max-height: 50px;
+.mh-45 {
+  max-height: 45px;
 }
+
+.mh-45:hover {
+  max-height: 105px;
+}
+
 .h-150 {
   min-height: 150px;
 }
