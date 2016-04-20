@@ -1749,6 +1749,13 @@ body {
 
 .cart {
     display: none;
+    margin-top: 10px;
+}
+
+.cart-quantity {
+    font-size: 20px;
+    margin-right:8px;
+    margin-left:8px;
 }
 
 .hpanel > .panel-footer,
